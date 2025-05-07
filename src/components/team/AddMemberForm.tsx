@@ -25,6 +25,7 @@ export default function AddMemberForm() {
             formData
         }
         mutation.mutate(data)
+        console.log(mutation.data)
     }
     // al agregar usuario se limpia el formulario
     const resetData = () => {

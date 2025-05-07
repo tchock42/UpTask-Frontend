@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 import { Dialog, DialogPanel, DialogTitle, Transition, TransitionChild } from '@headlessui/react';
 import { useNavigate, useParams } from 'react-router-dom';
-import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
+import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { Task, TaskFormData } from '@/types/index';
 import { useForm } from 'react-hook-form';
 import TaskForm from './TaskForm';
